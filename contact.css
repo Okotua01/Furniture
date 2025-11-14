@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto", sans-serif;
+}
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+.logo{
+    font-weight: 600;
+    font-size: 20px;
+}
+span{
+    color: orange;
+    border-bottom: 4px double orange;
+    font-style:italic;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-items{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+    &:hover{
+        color: orange;
+    }
+}
+.contact{
+    color: orange;
+    padding: 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: 0.5px 0.5px 8px rgba(12, 12, 12, 0.2);
+}
+.nav-btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid orange;
+}
+.hero{
+    display: flex;
+    margin: 30px;
+    background-color: #716262;
+    padding: 10px;
+    background-color: rgb(177, 172, 164);
+}
+.txt{
+    padding: 50px;
+    width: 50%;
+
+}
+.txt h2{
+    font-weight: 900;
+    font-size: 35px;
+    padding-block: 30px;
+}
+.txt-content{
+    /* width: 600px; */
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+.call{
+    display: flex;
+    gap: 15px;
+}
+.call a{
+    color: #fff;
+    text-shadow: 4px 4px 12px rgba(12 12 12 0.1);
+}
+.mail{
+    padding-bottom: 12px;
+}
+.form h2{
+    color: #000;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-size: 35px;
+    /* text-align: left; */
+}
+.register{
+    display: grid;
+    grid-template-columns:300px 300px;
+    margin: 10px;
+    gap: 15px;
+}
+input{
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: 0;
+}
+select{
+    border-radius: 10px;
+    border: 0;
+}
+textarea{
+    border-radius: 10px;
+    padding: 10px 8px;
+    margin: 10px;
+    width: 615px;
+    height: 150px;
+}
+.start{
+    border: 3px solid orange;
+    padding: 10px 20px;
+    width: 615px;
+    margin: 10px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+
+    &:hover{
+        background-color: gray;
+        color: #000;
+    }
+}

@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "roboto", sans-serif;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.logo{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.span-1{
+    color: orange;
+    border-bottom: 4px double orange;
+    font-style:italic;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+
+}
+
+.span-2{
+    color: orange;
+    padding: 10px ;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: 0.5px 0.5px 8px rgba(12, 12, 12, 0.2);
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    &:hover{
+        color: orange;
+    }
+}
+.hero{
+    background-image: url(card1.avif);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    align-content: center;
+    padding: 0 80px;
+}
+.title h2{
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 30px;
+    border-bottom: 7px dotted orange;
+    width: 250px;
+}
+.hero-para{
+    width: 600px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 35px;
+
+}
+.hero-btn{
+    background-color: orange;
+    padding: 15px 20px;
+    border-radius: 100px;
+    border: none;
+    font-weight: 650;
+    &:hover{
+        background-color: rgb(225, 199, 151);
+    }
+
+    &:active{
+        background-color: rgb(196, 157, 64);
+
+    }
+}
+.cards{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    padding-bottom: 40px;
+        
+}
+.content-title{
+    justify-self: center;
+    padding: 40px 0;
+    font-weight: 800;
+    font-size: 30px;
+}
+.card-title{
+    text-align: center;
+    padding: 20px;
+    font-weight:800;
+}
+.card-item{
+    width: 450px;
+    line-height: 23px;
+    border-right: 3px solid gray;
+}
+.Teams{
+    padding: 40px;
+    background-color: #fffcef;
+    box-shadow: 2px 2px 12px rgba(12, 12, 12 0.7);
+    background: linear-gradient(-50deg,#a8a69d, #e0ddce,#e7e5d8);
+    text-align: center;
+    
+}
+.Teams h2{
+    padding-block: 20px;
+}
+.team-card{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+    
+}
+.test-card{
+    width: 250px;
+    background-color: #fff;
+    padding: 35px;
+    justify-items: center;
+    /* box-shadow: 6px 6px 20px rgba(12, 12, 12 0.7); */
+
+
+}
+img{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    object-fit: cover;
+    justify-items: center;
+    border-radius: 100px;
+    margin-block: 10px;
+}
+.name{
+    padding-block: 6px;
+}
+.ceo{
+    padding-bottom: 15px;
+}
+footer{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    background-color: rgb(15, 12, 12);
+    color: #fff;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+    /* align-items: center; */
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        color: orange;
+
+    }
+}
+.list{
+    align-items: center;
+}
+.about{
+    color: gray;
+    text-decoration: line-through;
+    font-weight: 550;
+}
+.icon-txt{
+    display: flex;
+    gap: 10px;
+
+}
+.fa-location-dot{
+    color: orange;
+    font-size: 25px;
+
+}
+.icons{
+    font-size: 17px;
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.icons a{
+    padding: 15px;
+    &:hover{
+    border: 2px solid orange;
+
+    }
+}
+.mail{
+    display: flex;
+    width: 450px;
+    gap: 10px;
+}
+.fa-envelope{
+    color: orange;
+    font-size: 20px;
+}
+.child1-txt{
+    padding-bottom: 15px;
+}
+.menu h2{
+    color: orange;
+    font-size: 30px;
+
+
+}
